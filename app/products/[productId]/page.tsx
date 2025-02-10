@@ -9,19 +9,19 @@ type Props = {
   };
 };
 
-export const generateMetadata = async ({
-  params,
-}: Props): Promise<Metadata> => {
-  const { productId } = await params;
-  const title = await new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(`iPhone ${productId}`);
-    }, 1000);
-  });
-  return {
-    title: `Product ${title}`,
-  };
-};
+// export const generateMetadata = async ({
+//   params,
+// }: Props): Promise<Metadata> => {
+//   const { productId } = await params;
+//   const title = await new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve(`iPhone ${productId}`);
+//     }, 1000);
+//   });
+//   return {
+//     title: `Product ${title}`,
+//   };
+// };
 
 // // above and below both are same to set the title
 // export const generateMetadata = async ({ params }: Props) => {

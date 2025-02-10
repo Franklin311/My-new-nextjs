@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // experimental: {
+  //   instrumentation: true, // Correct way to enable instrumentation
+  // },
 };
 
 export default nextConfig;
