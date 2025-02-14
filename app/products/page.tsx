@@ -1,8 +1,19 @@
 import Link from "next/link";
-
+import { Suspense } from "react";
+import { Reviews, ProductsData } from "../_components/reviews";
 async function products() {
   return (
     <>
+      <Reviews />
+      <ProductsData />
+      {/* <Suspense fallback={<div> review is Loading...</div>}>
+        <Reviews />
+      </Suspense>
+
+      <Suspense fallback={<div> ProductsData is Loading...</div>}>
+        <ProductsData />
+      </Suspense> */}
+
       <h1>Products</h1>
       <h4>
         {" "}
