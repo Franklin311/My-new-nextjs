@@ -1,8 +1,7 @@
 "use client";
 export default function Page() {
   return (<div> error !!!!!!!!!!!!!!!!
-    <p> sample 1</p>
-    <p> sample 1</p>
-    <p> sample 3</p>
+    <p> reset 1</p>
+    <p> reset 2</p>
   </div>);
 }
