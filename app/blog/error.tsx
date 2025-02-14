@@ -4,5 +4,6 @@ export default function Page() {
     <p> reset 1</p>
     <p> reset 2</p>
     <p> reset test rebase</p>
+    <p> git stash</p>
   </div>);
 }
